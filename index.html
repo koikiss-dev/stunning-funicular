@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+<link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap" rel="stylesheet">
+    <title>News</title>
+</head>
+
+<body>
+    <nav class="flex items-center justify-between bg-slate-50 rounded-full 
+    border-[1px] border-slate-300 px-6 py-3 m-7 m lg:mx-[50px] lg:mt-[50px] ">
+        <div class=" flex">
+            <span class="text-[30px] font-bold mr-4 text-blue-500">GameTo</span>
+            <ul class="flex items-center space-x-3 text-slate-900">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex items-center space-x-3">
+            <input class="outline-0 border-[1px] border-slate-300 py-2 px-3 rounded-md placeholder:text-slate-300 placeholder:font-light focus:ring-2 focus:ring-slate-400 text-slate-900" type="text" name="" id="" placeholder="search news ">
+            <img class="rounded-full hover:ring-2 hover:ring-slate-900" width="40px" height="40px" src="/assets/by.jpg" alt="profile">
+        </div>
+    </nav>
+
+    <!--News section-->
+    <section class="m-6 lg:mx-[50px] lg:my-9 space-y-5">
+        <h1 class="text-[35px] text-slate-900 font-bold">Noticias Recientes</h1>
+        <div class="grid gap-4 grid-rows-3 grid-cols-2 md:grid-cols-2 xl:grid-cols-3">
+            <article class="border-[1px] border-slate-300 hover:border-slate-500 ease-in-out duration-200 flex flex-col w-full p-4 rounded-md space-y-4   ">
+                <figure class="relative">
+                    <img class="object-cover rounded-md w-full  " width="300px" height="200px" src="/assets/image-91-1024x576.png" alt="">
+                    <span class="absolute rounded-full bg-blue-400 py-1 px-3 font-bold text-white text-xs bottom-2 left-2 ">Label1</span>
+                </figure>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-slate-700 text-[15px]">26 julio, 2023</span>
+                        <img class="rounded-full" width="30px" height="30px" src="/assets/profile.jpg" alt="profile">
+                    </div>
+                    <h2 class="font-semibold text-slate-900 text-lg truncate ">Stray, el mundo de los gatos</h2>
+                </div>
+            </article>
+
+            <article class="border-[1px] border-slate-300 hover:border-slate-500 ease-in-out duration-200 flex flex-col w-full p-4 rounded-md space-y-4 ">
+                <figure class="relative">
+                    <img class="object-cover rounded-md w-full  " width="300px" height="200px" src="/assets/image-26-1024x576.png" alt="">
+                    <span class="absolute rounded-full bg-blue-400 py-1 px-3 font-bold text-white text-xs bottom-2 left-2 ">Label1</span>
+                </figure>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-slate-700 text-[15px]">26 julio, 2023</span>
+                        <img class="rounded-full" width="30px" height="30px" src="/assets/profile.jpg" alt="profile">
+                    </div>
+                    <h2 class="font-semibold text-slate-900 text-lg truncate ">Lorem ipsum dolor sit amet consectetur</h2>
+                </div>
+            </article>
+            <article class="border-[1px] border-slate-300 hover:border-slate-500 ease-in-out duration-200 flex flex-col w-full p-4 rounded-md space-y-4 ">
+                <figure class="relative">
+                    <img class="object-cover rounded-md w-full  " width="300px" height="200px" src="/assets/image-155-1024x576.png" alt="">
+                    <span class="absolute rounded-full bg-blue-400 py-1 px-3 font-bold text-white text-xs bottom-2 left-2 ">Label1</span>
+                </figure>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-slate-700 text-[15px]">26 julio, 2023</span>
+                        <img class="rounded-full" width="30px" height="30px" src="/assets/profile.jpg" alt="profile">
+                    </div>
+                    <h2 class="font-semibold text-slate-900 text-lg truncate ">Lorem ipsum dolor sit amet consectetur</h2>
+                </div>
+            </article>
+            <article class="border-[1px] border-slate-300 hover:border-slate-500 ease-in-out duration-200 flex flex-col w-full p-4 rounded-md space-y-4 ">
+                <figure class="relative">
+                    <img class="object-cover rounded-md w-full  " width="300px" height="200px" src="/assets/image-150-1024x576.png" alt="">
+                    <span class="absolute rounded-full bg-blue-400 py-1 px-3 font-bold text-white text-xs bottom-2 left-2 ">Label1</span>
+                </figure>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-slate-700 text-[15px]">26 julio, 2023</span>
+                        <img class="rounded-full" width="30px" height="30px" src="/assets/profile.jpg" alt="profile">
+                    </div>
+                    <h2 class="font-semibold text-slate-900 text-lg truncate ">Lorem ipsum dolor sit amet consectetur</h2>
+                </div>
+            </article>
+            <article class="border-[1px] border-slate-300 hover:border-slate-500 ease-in-out duration-200 flex flex-col w-full p-4 rounded-md space-y-4 ">
+                <figure class="relative">
+                    <img class="object-cover rounded-md w-full  " width="300px" height="200px" src="/assets/image-112-1024x576.png" alt="">
+                    <span class="absolute rounded-full bg-blue-400 py-1 px-3 font-bold text-white text-xs bottom-2 left-2 ">Label1</span>
+                </figure>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-slate-700 text-[15px]">26 julio, 2023</span>
+                        <img class="rounded-full" width="30px" height="30px" src="/assets/profile.jpg" alt="profile">
+                    </div>
+                    <h2 class="font-semibold text-slate-900 text-lg truncate ">Lorem ipsum dolor sit amet consectetur</h2>
+                </div>
+            </article>
+           
+        </div>
+    </section>
+    <footer class="p-6  bg-blue-600 text-white flex justify-center gap-4">
+        <span>Copyright © Grupo B </span>
+        <link href="#">
+          Sistemas operativos
+        </link>
+      </footer >
+</body>
+
+</html>
